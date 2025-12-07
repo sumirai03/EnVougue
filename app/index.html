@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnVougue- Unisex Clothing</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="marquee-container fixed-top">
+        <div class="marquee">
+            Pick Any 3 Women Products @ ₹999 🔥 Unbelievable SALE Ends Tomorrow!
+        </div>
+    </div>
+    <!-- bootsrap navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top" style="margin-top: 20px;">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+            <img src="images/shopping-bag-icon.png" alt="site icon">
+            <span class="fw-lighter ms-2">EnVougue -Unisex Clothing</span>
+            </a>
+
+        <div class="order-lg-1 nav-btns">
+            <a id="loginBtn" class="btn-link login me-0">LogIn</a>
+                <span>|</span>
+            <a id="registerBtn" class="btn-link signup ms-0">Signup</a>
+                
+            <button type="button" class="btn position-relative">
+                <i class="fa fa-shopping-cart"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+            </button>
+                
+            <button type="button" class="btn position-relative">
+                    <i class="fa fa-truck"></i>
+            </button>
+        </div>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div id="navMenu" class="collapse navbar-collapse bg-white">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-1 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#header">home</a>
+                    </li>
+                    <li class="nav-item px-1 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#collection">collection</a>
+                    </li>
+                    <li class="nav-item px-1 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#offers">specials</a>
+                    </li>
+                    <li class="nav-item px-1 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#blogs">blogs</a>
+                    </li>
+                    <li class="nav-item px-1 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#about">about us</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- bootsrap header -->
+    <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px;">
+        <div class="container h-100 d-flex align-items-center carousel-inner">
+            <div class="text-center carousel-item active" style="margin-top:150px;">
+                <h2 class="text-capitalize ">Fashion & Clothing</h2>
+                <h1 class="text-uppercase py-2 fw-bold ">New Arrivals</h1>
+                <a href="collection" class="btn mt-3 text-uppercase">Shop Now</a>
+            </div>
+            <div class="text-center carousel-item" style="margin-top:150px;" >
+                <h2 class="text-capitalize ">Best Discounts & Offers</h2>
+                <h1 class="text-uppercase py-2 fw-bold">New Season</h1>
+                <a href="#" class="btn mt-3 text-uppercase">Buy Now</a>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <!-- end of header -->
+
+    <!-- New Collection-->
+    <section id="collection" class="py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">New Collection</h2>
+            </div>
+
+            <div class="row g-0">
+                <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type="button" class="btn m-2 text-dark active-filter-btn" data-filter="*">All</button>
+                    <a href="category.html#joggers" class="btn m-2 text-dark " target="_blank" data-filter=".jogger">Joggers</button> </a>
+                    <a href="category.html#hoodies" class="btn m-2 text-dark " target="_blank" data-filter=".hoodie">Hoodies</button></a>
+                    <a href="category.html#vests" class="btn m-2 text-dark " target="_blank" data-filter=".vest">Vests</button></a>
+                    <a href="category.html#tshirts" class="btn m-2 text-dark" target="_blank" data-filter=".tshirt">T Shirts</a>
+                </div>
+
+                <div class="collection-list mt-4 row gx-0 gy-3">
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 hoodie">
+                        <div class="collection-img position-relative">
+                            <img src="images/new_hoodie.png" class="w-100">
+                            <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">New</span>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Luffy printed hoodie</p>
+                            <span class="fw-bold">$ 45.50 </span>
+                            <div class="buttons mt-3">
+                                <a href="your-add-to-cart-link" class="btn btn-secondary btn-sm">Add to Cart</a>
+                                <a href="your-buy-now-link" class="btn btn-primary btn-sm">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 vest">
+                        <div class="collection-img position-relative">
+                            <img src="images/cool_black_vest.png" class="w-100">
+                            <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">New</span>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Cool Black Vest</p>
+                            <span class="fw-bold">$ 45.50</span>
+                            <div class="buttons mt-3">
+                                <a href="your-add-to-cart-link" class="btn btn-secondary btn-sm">Add to Cart</a>
+                                <a href="your-buy-now-link" class="btn btn-primary btn-sm">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 tshirt">
+                        <div class="collection-img position-relative">
+                            <img src="images/T_Shirts.png" class="w-100">
+                            <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">New</span>
+                        </div>
+                        <div class="text-center">
+                         <p class="text-capitalize my-1">3 printed Tshirts</p>
+                            <span class="fw-bold">$ 413.50</span>
+                             <div class="buttons mt-3">
+                                <a href="your-add-to-cart-link" class="btn btn-secondary btn-sm">Add to Cart</a>
+                                <a href="your-buy-now-link" class="btn btn-primary btn-sm"> Buy Now </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 jogger">
+                        <div class="collection-img position-relative">
+                            <img src="images/New_Jogger.png" class="w-100">
+                            <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">New</span>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Light comfortable jogger <p>
+                            <span class="fw-bold">$ 450.50</span>
+                            <div class="buttons mt-3">
+                                <a href="your-add-to-cart-link" class="btn btn-secondary btn-sm">Add to Cart</a>
+                                <a href="your-buy-now-link" class="btn btn-primary btn-sm">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of collection -->
+
+
+    <!-- discounts-->
+    <section id="offers" class="py-5">
+        <div class="container">
+            <div
+                class="row d-flex align-items-center justify-content-center text-center justify-content-lg-start text-lg-start">
+                <div class="offers-content">
+                    <span class="text-white">Discount Up To 70%</span>
+                    <h2 class="mt-2 mb-4 text-white">Grand Sale Offer !</h2>
+                    <a href="#special" class="btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of discounts -->
+
+    <!-- Bootstrap special products -->
+    <section id="special" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">Special Selection</h2>
+            </div>
+
+            <div class="special-list row g-0">
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/special_product_1.jpg" class="w-100">
+                        <span
+                            class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Top rated Jogger</p>
+                        <span class="fw-bold d-block">$ 45.50</span>
+                        <div class="buttons mt-3">
+                                <a href="your-add-to-cart-link" class="btn btn-secondary btn-sm">Add to Cart</a>
+                                <a href="your-buy-now-link" class="btn btn-primary btn-sm">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/special_product_2.jpg" class="w-100">
+                        <span
+                            class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">White plane hoodie</p>
+                        <span class="fw-bold d-block">$ 45.50</span>
+                        <div class="buttons mt-3">
+                                <a href="your-add-to-cart-link" class="btn btn-secondary btn-sm">Add to Cart</a>
+                                <a href="your-buy-now-link" class="btn btn-primary btn-sm">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/special_product_3.jpg" class="w-100">
+                        <span
+                            class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Dark blue Vest</p>
+                        <span class="fw-bold d-block">$ 45.50</span>
+                        <div class="buttons mt-3">
+                                <a href="your-add-to-cart-link" class="btn btn-secondary btn-sm">Add to Cart</a>
+                                <a href="your-buy-now-link" class="btn btn-primary btn-sm">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/special_product_4.jpg" class="w-100">
+                        <span
+                            class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Grey TShirt <p>
+                        <span class="fw-bold d-block">$ 45.50</span>
+                        <div class="buttons mt-3">
+                                <a href="your-add-to-cart-link" class="btn btn-secondary btn-sm">Add to Cart</a>
+                                <a href="your-buy-now-link" class="btn btn-primary btn-sm">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end of special products -->
+
+    <!-- blogs -->
+    <section id="blogs" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">Related Blogs</h2>
+            </div>
+
+            <div class="row g-3">
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="images/blog_1.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">What Are Digital Payments? Types + Examples</h4>
+                        <p class="card-text mt-3 text-muted">Getting paid is arguably the most important part of operating a business. After all, getting paid for the products you’re selling is how you can pay for business expenses, grow revenue, and draw a profit.Digital payments make growing your business possible wherever you’re selling.</p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="fw-bold">Author <span></span>: </span>Elise Dopson
+                            </small>
+                        </p>
+                        <a href="https://www.shopify.com/blog/digital-payments" class="btn" target="_blank">Read More </a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="images/blog_2.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">The reasons why consumers shop online instead of in stores</h4>
+                        <p class="card-text mt-3 text-muted">When I first got involved in digital marketing in the mid-1990s, online shopping via e-commerce was in its infancy. It's hard to believe now, but many consumers were reluctant to buy online, so it was important for retailers to understand..</p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="fw-bold">Author <span></span>: </span>Dave Chaffey
+                            </small>
+                        </p>
+                        <a href="https://www.smartinsights.com/ecommerce/ecommerce-strategy/the-reasons-why-consumers-shop-online-instead-of-in-stores/" class="btn"target="_blank">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="images/blog_3.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">The Benefits of Online Shopping: Convenience, Savings, and More</h4>
+                        <p class="card-text mt-3 text-muted">In today’s fast-paced world, the internet has revolutionized the way we shop. Online shopping has become a ubiquitous part of our lives, offering a wide range of benefits that traditional brick-and-mortar stores simply can’t match.</p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="fw-bold">Author <span></span>: </span>Julie Higgins
+                            </small>
+                        </p>
+                        <a href="https://www.momooze.com/benefits-of-online-shopping/" class="btn"target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of blogs -->
+
+    <!-- Bootstrap about us -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row gy-lg-5 align-items-center">
+                <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+                    <div class="title pt-3 pb-5">
+                        <h2 class="position-relative d-inline-block ms-4">About Us</h2>
+                    </div>
+                    <p class="lead text-muted">Welcome to EnVougue, where fashion meets comfort and style.
+                    </p>
+                    <p>EnVougue, we believe that clothing is more than just fabric; it's a statement of who you are. Our mission is to provide you with high-quality, stylish, and comfortable clothing that fits seamlessly into your everyday life.</p>
+                    <p> Why Choose Us? 
+                        <ul>
+                            <li> Quality: Durable and long-lasting materials.</li>
+                            <li> Style: Trendy yet timeless designs.</li>
+                            <li> Comfort: Fashion that feels as good as it looks.</li>
+                        </ul>
+                    Thank you for choosing EnVougue. We’re excited to be a part of your fashion journey!</p>
+                </div>
+                <div class="col-lg-6 order-lg-0">
+                    <img src="images/about_us.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about us -->
+
+    <!-- Membership -->
+    <section id="membership" class="py-5">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <div class="title text-center pt-3 pb-5">
+                    <h2 class="position-relative d-inline-block ms-4">Join the EnVougue Membership</h2>
+                </div>
+
+                <p class="text-center text-muted">Unlock exclusive benefits and stay ahead of the fashion curve by joining the EnVougue Membership. As a member, you'll receive early access to our latest collections, special discounts, and personalized style recommendations. Our membership is designed to enhance your shopping experience and keep you updated with the newest trends and must-have pieces.</p>
+                <div class="input-group mb-3 mt-3">
+                    <input type="text" class="form-control" placeholder="Enter Your Email ...">
+                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of Membership -->
+
+<!-- Bootstrap footer -->
+<footer class="bg-dark py-5">
+    <div class="container">
+        <div class="row text-white g-4">
+            <!-- Need Help Section -->
+            <div class="col-md-3">
+                <h4 class="mb-4 text-base font-weight-bold">NEED HELP</h4>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="/pages/track-your-order" class="text-white text-decoration-none" onclick="footerGaEvents('HP_Footer_Click','Footer','Footer_Help_Track_Your_Order_Click','')">Track Your Order</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="/pages/shipping-return" class="text-white text-decoration-none" onclick="footerGaEvents('HP_Footer_Click','Footer','Footer_Help_Returns_Exchanges_Click','')">Returns & Exchanges</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="/pages/faqs" class="text-white text-decoration-none" onclick="footerGaEvents('HP_Footer_Click','Footer','Footer_Help_FAQs_Click','')">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Company Section -->
+            <div class="col-md-3">
+                <h4 class="mb-4 text-base font-weight-bold">COMPANY</h4>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="/policies/shipping-policy" class="text-white text-decoration-none" onclick="footerGaEvents('HP_Footer_Click','Footer','Company_Shipping_Policy_Click','')">Shipping Policy</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="/policies/privacy-policy" class="text-white text-decoration-none" onclick="footerGaEvents('HP_Footer_Click','Footer','Company_Privacy_Policy_Click','')">Privacy Policy</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="/policies/terms-of-service" class="text-white text-decoration-none" onclick="footerGaEvents('HP_Footer_Click','Footer','Company_Terms_of_Service_Click','')">Terms of Service</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Contact Us Section -->
+            <div class="col-md-3">
+                <h4 class="mb-4 text-base font-weight-bold">CONTACT US</h4>
+                <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                    <span class="me-3">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </span>
+                    <span class="fw-light">
+                        South Delhi, India (116002)
+                    </span>
+                </div>
+                <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                    <span class="me-3">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="fw-light">
+                        <a href="mailto:sumitrai556@gmail.com" class="text-white text-decoration-none">EnVouguefashion@gmail.com</a>
+                    </span>
+                </div>
+                <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                    <span class="me-3">
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                    <div class="fw-light">
+                        <a href="tel:8709248687" class="text-white text-decoration-none">8709248687</a> OR <a href="tel:7782050841" class="text-white text-decoration-none">7782050841</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Follow Us Section -->
+            <div class="col-md-3">
+                <h4 class="mb-4 text-base font-weight-bold">LET'S BE FRIENDS</h4>
+                <ul class="list-unstyled d-flex">
+                    <li class="me-4">
+                        <a href="https://www.facebook.com/profile.php?id=61564120109410" target="_blank" class="text-white text-decoration-none text-muted fs-4">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="me-4">
+                        <a href="https://x.com/envouguefashion" target="_blank" class="text-white text-decoration -none text-muted fs-4">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="me-4">
+                        <a href="https://www.instagram.com/en.vougue/" target="_blank" class="text-white text-decoration-none text-muted fs-4">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="me-4">
+                        <a href="https://wa.me/918709248687" target="_blank" class="text-white text-decoration-none text-muted fs-4">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li class="me-4">
+                        <a href="https://www.youtube.com/@EnVougue" target="_blank" class="text-white text-decoration-none text-muted fs-4">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center mt-4">
+                <p class="text-white text-muted mb-0">&copy; Copyright EnVougue 2024</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end of footer -->
+
+
+    <!-- isotope js cdn -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js cdn -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
